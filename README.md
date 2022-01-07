@@ -1,34 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Book Tracker</h1>
+<h4 align="center">The Book Tracker is a web app to help you track the book you're reading or want to read.</h4>
 
-## Getting Started
+<p align="center">
+  <img alt="Most used language" src="https://img.shields.io/github/languages/top/marcosribeirodacunha/book-tracker-frontend?style=flat">
 
-First, run the development server:
+  <img alt="GitHub" src="https://img.shields.io/github/license/marcosribeirodacunha/book-tracker-frontend">
+
+  <img alt="Eslint" src="https://img.shields.io/badge/dynamic/json?label=eslint&query=%24.devDependencies.eslint&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmarcosribeirodacunha%2Fbook-tracker-frontend%2Fmaster%2Fpackage.json&logo=eslint&color=4b32c3">
+
+  <img alt="Prettier" src="https://img.shields.io/badge/dynamic/json?label=prettier&query=%24.devDependencies.prettier&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmarcosribeirodacunha%2Fbook-tracker-frontend%2Fmaster%2Fpackage.json&color=f7b93e&logo=prettier">
+
+  <img alt="Code style: Airbnb" src="https://img.shields.io/badge/code%20style-airbnb-ff5a5f" />
+</p>
+
+<p align="center">
+  <a href="#features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#license">License</a>
+</p>
+
+<p align="center">
+  <img src="./.github/books_page.png" alt="Book page" width="100%">
+</p>
+
+## Features
+
+- [x] Account creation
+- [x] Login with email and password
+- [x] List of all user books
+- [x] List of all user books by status
+- [x] Create new book
+- [x] Update book status
+- [x] Rate a book
+- [x] Edit book info and rate
+- [x] Delete a book
+
+## ⚙ Instalação
+
+To clone and run this application you need to have installed [Git](https://git-scm.com/) and [NodeJS](https://nodejs.org/en/download/) (which also installs the [npm](https://www.npmjs.com/)). Then in the command line:
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone repository
+$ git clone https://github.com/marcosribeirodacunha/book-tracker-frontend.git
+
+# Go into the folder
+$ cd book-tracker-frontend
+
+# Install all dependencies
+$ npm install
+// or yarn
+
+# Run the application
+$ npm run dev
+// or yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Important:** Before running the application you need to add the backend url in the `.env.local` file. Rename the `.env.example` to follow as example
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 👨🏽‍💻 Tecnologias
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- [ReactJS](https://nextjs.org/)
+- [NextJS](https://pt-br.reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Axios](https://github.com/axios/axios)
+- [ESlint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [EditorConfig](https://editorconfig.org/)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## License
 
-## Learn More
+This project is under the MIT license. See the [LICENSE](LICENSE) to more details.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

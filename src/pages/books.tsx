@@ -73,8 +73,6 @@ export default function Books({ books: initialState }: IBooksProps) {
     <>
       <Header />
 
-      <p>Book Status: {bookStatus}</p>
-
       <BooksContext.Provider value={{
         books,
         addBook: prepend,

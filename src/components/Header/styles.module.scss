@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+
+  span {
+    font-weight: bolder;
+    font-size: 1.25rem;
+    line-height: 1.1;
+    color: var(--primary-500)
+  }
+
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--gray-800);
+}
+
+.userContainer {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    align-items: flex-end;
+  }
+
+  p {
+    font-weight: 600;
+  }
+
+  small {
+    font-size: 0.875rem;
+    color: var(--gray-400)
+  }
+}

@@ -1,0 +1,84 @@
+*, 
+*:before, 
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  --gray-100: #F4F5F6;
+  --gray-200: #E6E9EB;
+  --gray-300: #C9D1D4;
+  --gray-400: #99ACB2;
+  --gray-500: #607880;
+  --gray-600: #3B4D54;
+  --gray-700: #233339;
+  --gray-800: #152328;
+  --gray-850: #0A191F;
+  --gray-900: #001011;
+
+  --primary-200: #ADC0E4;
+  --primary-400: #6588CB;
+  --primary-500: #4472CA;
+  --primary-600: #1F4692;
+
+  --danger-200: #FCC2C8;
+  --danger-400: #FD7987;
+  --danger-500: #FF495C;
+  --danger-600: #F02D41;
+
+  --toastify-color-dark: var(--gray-800);
+  --toastify-font-family: var(--font-family);
+  --toastify-text-color-dark: var(--gray-100);
+}
+
+html,
+body {
+  background: var(--gray-900);
+  color: var(--gray-100);
+  font-family: var(--font-family);
+}
+
+#__next {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+body, input, textarea, select, button {
+  font: 400 1rem var(--font-family);
+  line-height: 1.4;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ReactModal {
+  &__Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #001011aa;
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+  }
+
+  &__Body {
+    &--open {
+      overflow: hidden;
+      padding-right: 1rem;
+    }
+  }
+}

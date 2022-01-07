@@ -1,0 +1,22 @@
+.container {
+  display: inline-block;
+  padding: 0.5rem;
+  border: 1px solid;
+  font-size: 0.875rem;
+  line-height: 1;
+}
+
+.yellow {
+  color:  #f5d547;
+  border-color: #746006;
+}
+
+.blue {
+  color:  var(--primary-400);
+  border-color: var(--primary-600);
+}
+
+.green {
+  color:  #28eb48;
+  border-color: #095d17;
+}
